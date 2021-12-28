@@ -32,9 +32,11 @@ class App extends React.Component {
             >
               {this.state.isToggleOn ? "ON" : "OFF"}
             </button>
+
+            <hr/>
+            <LifeCycleComponents />
           </div>
         </main>
-        <LifeCycleComponents />
 
         <Footer></Footer>
       </div>
