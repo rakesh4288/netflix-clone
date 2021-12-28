@@ -1,5 +1,27 @@
 header {
   display: flex;
-  background: gray;
-  height: 200px;
+  /* background: #003c6a; */
+  background: #000;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navBlock  {
+  display: flex;
+  padding-left: 20px;
+}
+
+.navBlock  .menuItems{
+  margin: auto;
+  padding: 0 15px;
+  color : #fff;
+  text-decoration: none;
+}
+
+.navBlock  .menuItems:hover{
+  color: yellow;
+  text-decoration: underline;
 }

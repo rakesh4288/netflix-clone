@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import {Link, Router} from 'react-router-dom';
 
-export default class MenuItem extends Component {
+class MenuItem extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -9,6 +10,8 @@ export default class MenuItem extends Component {
   }
 
   render() {
-    return <a> {this.state.item} </a>;
+    return <Link to="" className="menuItems"> {this.state.item} </Link>;
   }
 }
+
+export default MenuItem;

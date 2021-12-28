@@ -11,9 +11,9 @@ class MenuWrapper extends Component {
   render() {
     const menuListArr = this.state.menuItems;
     return (
-      <div>
-        {menuListArr.map((items) => (
-          <MenuItem menuText={items} />
+      <div className="navBlock">
+        {menuListArr.map((items,index) => (
+          <MenuItem menuText={items} key={items + index} />
         ))}
       </div>
     );

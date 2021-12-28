@@ -1,0 +1,46 @@
+body{
+    padding-top: 80px;
+}
+
+.pageBody {
+    min-height: 490px;    
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.siteFooter {
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    display: block;
+    /* background:#000; */
+    background: linear-gradient(206.57deg,#00c4d9 0%,#0091da 100%);
+}
+  
+.footer-content{
+    font-size: 12px;
+}
+
+.ON{
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.OFF{
+    background: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
