@@ -11,9 +11,11 @@ class Header extends React.Component {
   render() {
     return (
       <>
-        <Logo />
-        <MenuWrapper />
-        {/* <Serach /> */}
+        <header>
+          <Logo />
+          <MenuWrapper />
+          {/* <Serach /> */}
+        </header>
       </>
     );
   }
